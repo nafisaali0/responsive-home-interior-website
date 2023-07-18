@@ -1,0 +1,52 @@
+/* large screen */
+@media screen and (max-width: 991px) {
+  .nav-links {
+    display: none;
+  }
+  #burger {
+    display: flex;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  P {
+    font-size: 20px;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+}
+/* medium/tablet screen  */
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  P {
+    font-size: 20px;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+}
+
+/* phone */
+@media screen and (max-width: 479px) {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  P {
+    font-size: 20px;
+  }
+  .hero-section {
+    flex-direction: column;
+  }
+}
